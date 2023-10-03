@@ -16,6 +16,12 @@ header {
     margin-bottom: 50px;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .logo {
     height: 70px;
     width: 70px;
@@ -37,10 +43,11 @@ header {
 .task-manager {
     height: 60px;
     line-height: 60px;
-    padding-left: 25px;
+    padding-left: 40px;
     border-bottom: 3px solid rgb(246, 248, 249);
 }
 
+/* Buttons */
 .button {
     border-radius: 5px;
     padding: 5px;
@@ -61,4 +68,77 @@ header {
 
 .tasks {
     padding: 30px 40px;
+}
+
+.tasks article {
+    margin-bottom: 15px;
+}
+
+article li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+.check {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    color: green;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+.cross {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    color: red;
+    line-height: 15px;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+}
+
+/* Badges */
+.badge {
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.badge-blue {
+    background-color: rgb(69, 171, 234);
+}
+
+.badge-purple {
+    background-color: rgb(156, 114, 228);
+}
+
+.badge-green {
+    background-color: rgb(100, 192, 169);
+}
+
+.badge-orange {
+    background-color: rgb(242, 158, 51);
+}
+
+.badge-pink {
+    background-color: rgb(216, 99, 161);
+}
+
+.badge-lightgreen {
+    background-color: rgb(176, 201, 38);
 }
