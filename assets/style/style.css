@@ -7,3 +7,58 @@
 body {
     background-color: rgb(246, 248, 249);
 }
+
+header {
+    background-color: white;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    vertical-align: bottom;
+}
+
+.text-logo {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+.task-manager {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 25px;
+    border-bottom: 3px solid rgb(246, 248, 249);
+}
+
+.button {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.button-blue {
+    border: 3px solid rgb(71, 173, 241);
+    background-color: rgb(71, 173, 241);
+    color: white;
+}
+
+.button-grey {
+    border: 2px solid rgb(207, 212, 216);
+    background-color: white;
+    color: rgb(207, 212, 216);
+}
+
+.tasks {
+    padding: 30px 40px;
+}
