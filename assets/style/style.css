@@ -83,32 +83,27 @@ article h2 {
     font-size: 30px;
 }
 
-.check {
+.point {
     margin-right: 5px;
     height: 20px;
     width: 20px;
-    border: 1px solid green;
+    border: 1px solid;
     border-radius: 50%;
     display: inline-block;
-    color: green;
     line-height: 15px;
     font-size: 15px;
     text-align: center;
     padding: 2px;
 }
 
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
 .cross {
-    margin-right: 5px;
-    height: 20px;
-    width: 20px;
     border: 1px solid red;
-    border-radius: 50%;
-    display: inline-block;
     color: red;
-    line-height: 15px;
-    font-size: 15px;
-    text-align: center;
-    padding: 2px;
 }
 
 /* Badges */
